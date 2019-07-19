@@ -1,0 +1,33 @@
+Integration: 
+Apps - Distribution
+
+LAYERS
+
+APP - User Interface - web page, windows app, mobile app (amazon.com)
+shop - check inventory (back end service that checks inventory) - BUY 3rd Party App (webhook - security, login, encryption, URL)
+cart - your intention to buy (back end service) check shopping cart
+where? - shipping (back end service shipping)
+Pay for their item(s) - get a confirmation - CC validator
+
+MVC - Model View Controller
+Model - database
+View - UI
+Controller - actions/functions trigger
+
+
+FORK repository - COPY of someone else's repository in our user account
+--Made Change - added a file to the DEV branch of that persons repo
+--PULL request (hey, we added a file to your dev branch of your repo)
+==
+THAT person
+--will go to the pull request - they will view and compare the dev branch (where you put it) to their master branch
+--they will decide if they WANT the "stuff" in DEV to go to master
+--if they do, they MERGE and CONFIRM the MERGE
+--if they don't they cancel - OPEN pull request
+
+
+
+
+
+
+
